@@ -8,8 +8,8 @@ main()
 		if (char == “,”) | (char == NULL) | (char == ‘NL’)
 		{
 			substr_value = SubProg2(arr, i, j) #returns value of substring
-			i = j + 1			#plus 2 to skip comma and space
-			j = j + 1
+			i = j + 2			#plus 2 to skip comma and space
+			j = j + 2
 			SubProg3(substr_value)	#prints substring value
 		}
 		j++ 
